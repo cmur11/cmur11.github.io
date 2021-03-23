@@ -1,5 +1,9 @@
-import React from "react"
-import linkedIn from "../linkedin.jpg"
+import React from "react";
+import linkedIn from "../linkedin.jpg";
+//React FONTAWESOME IMPORTS
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 function NavBar(){
     
         return(
@@ -8,7 +12,8 @@ function NavBar(){
               <a className="navbar-brand" href="#">Conor Murnane</a>
               {/* <img src = {linkedIn} alt = "Conor Photo" className = "logo"/> */}
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+                <FontAwesomeIcon icon={faBars} style={{color: "fff"}}/>
+                {/* creates menu hamburger */}
               </button>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto ">
