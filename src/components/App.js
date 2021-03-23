@@ -1,15 +1,9 @@
-// import NavBar from "./NavBar.js"
+import '../App.css'
 import "bootstrap/dist/css/bootstrap.min.css"
-// import {Route, BrowserRouter as Router} from "react-router-dom";
+
 function App() {
   return (
- 
-    <div className="App">
-      
-      <header className="App-header">
-        Conor
-      </header>
-    </div>
+ <h2>Conor</h2>
   
   );
 }
