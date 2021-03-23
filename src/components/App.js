@@ -1,10 +1,13 @@
 import '../App.css'
 import "bootstrap/dist/css/bootstrap.min.css"
+// import myLinkedIn from "../linkedin.jp"
+import NavBar from "./NavBar"
 
 function App() {
   return (
- <h2>Conor</h2>
-  
+
+    <NavBar/>
+
   );
 }
 

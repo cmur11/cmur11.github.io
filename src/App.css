@@ -1,49 +1,36 @@
-.App {
-  text-align: center;
+:root {
+  --primary-white: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  body {
+    /* font-family: "Roboto Condensed" sans-serif; */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /* ***************** NAVBAR ***************************  */
+/* NinjaUnits source to convert pixels to rem */
+  .logo {
+    width: 16.25 rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-#nav {
-  width: 100%;
-  float: left;
-  margin: 0 0 3em 0;
-  padding: 0;
-  list-style: none;
-  background-color: #f2f2f2;
+   /* ***************** Menu Links ***************************  */
 
-  border-bottom: 1px solid #ccc; 
-  border-top: 1px solid #ccc; }
+   nav a.nav-link{
+     letter-spacing: 0.0375rem;
+     cursor: pointer;
+   }
+  
+   nav ul li {
+     text-transform: uppercase;
+   }
+
+   .navbar-nav > li > a {
+     margin-right: 0.75rem;
+     margin-left: 0.75rem;
+     color:var(--primary-white) !important;
+   }
+   .navbar-brand{
+     /* max-width: 17.25rem; */
+     /* padding: 0 !important; */
+     /* height: 6rem !important; */
+   }
