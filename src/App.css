@@ -2,6 +2,8 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
@@ -60,6 +62,11 @@
  }
  .main-info{
    display: flex;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
    flex-direction: column;
    justify-content: center;
    align-items:center;
@@ -69,3 +76,20 @@
   color: var(--primary-white);
   text-transform: uppercase;
  }
+
+  /* ***************** Typed Text ***************************  */
+  .typed-text{
+    font-size: 2rem;
+    color: var(--primary-white);
+    
+  }
+
+
+    /* ***************** Header Main Info Button ***************************  */
+  .btn-main-info{
+    border: 0.0625rem solid var(--primary-red);
+    color: var(--primary-white);
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    margin: 2rem;
+  }
