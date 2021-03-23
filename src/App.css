@@ -73,8 +73,16 @@
    background: url(cliffsOfMoher.jpg) no-repeat;
    background-size:cover; 
    background-position: center;
-   height: 90vh;
+   height:100vh;
  }
+
+ /* @media(max-width: 768px){
+  .header-wrapper{
+    background-size:cover; 
+    background-position: center;
+    
+  }
+} */
 
  .main-info{
    display: flex;
