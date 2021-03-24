@@ -287,7 +287,8 @@
 
    .portfolio-image-box{
      position: relative;
-
+    margin-right: .5rem;
+    margin-bottom: .5rem;
    }
 
    /* ***************** Overflow ***************************  */
