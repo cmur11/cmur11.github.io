@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearchPlus} from "@fortawesome/free-solid-svg-icons"
 // REACT POP UP BOX
 import {PopupboxManager,PopupboxContainer} from "react-popupbox";
-import "react-popupbox/dist/react-popupbox.css"
+import "react-popupbox/dist/react-popupbox.css";
 
 function Portfolio(){
 
@@ -16,14 +16,14 @@ const openPopupboxTenantTruths = () => {
     const content = (
 
         <>
-        <img className = "portfolio-image-popup" src = {TenantTruths} alt = "Tenant Truths Application" />
-        <p>
+        <img className = "portfolio-image-popupbox" src = {TenantTruths} alt = "Tenant Truths Application" />
+        <p className = "popup-desc">
         A react/rails application inspired by StreetEasy and Yelp, this application allows users to review, 
         rate, and upload photos of apartment listings to ensure prospective tenants have transparency into apartments
         </p>
-        <b>Netlify:</b><a className = "hyper-link" onClick = {() => window.open("https://tenanttruths.netlify.app/")}>https://tenanttruths.netlify.app/</a><br></br>
-        <b>GitHub: Frontend</b> <a className = "hyper-link" onClick = {() => window.open("https://github.com/cmur11/apartmentreviewfrontend")} >https://github.com/cmur11/apartmentreviewfrontend</a><br></br>
-        <b>GitHub: Backend</b> <a className = "hyper-link"onClick = {() => window.open("https://github.com/cmur11/apartmentreview_backend")}>https://github.com/cmur11/apartmentreview_backend</a>
+        <b className = "link-desc">Netlify:</b><a className = "hyper-link" onClick = {() => window.open("https://tenanttruths.netlify.app/")}>https://tenanttruths.netlify.app/</a><br></br>
+        <b className = "link-desc">GitHub: Frontend</b> <a className = "hyper-link" onClick = {() => window.open("https://github.com/cmur11/apartmentreviewfrontend")} >https://github.com/cmur11/apartmentreviewfrontend</a><br></br>
+        <b className = "link-desc">GitHub: Backend</b> <a className = "hyper-link"onClick = {() => window.open("https://github.com/cmur11/apartmentreview_backend")}>https://github.com/cmur11/apartmentreview_backend</a>
         </>
 
     )
@@ -33,7 +33,7 @@ const openPopupboxTenantTruths = () => {
 
     const popupboxConfigTenantTruths = {
         titleBar: {
-            enable: true,
+            enable: false,
             text: "Tenant Truths"
         },
         fadeIn: true,
@@ -46,13 +46,13 @@ const openPopupboxClothzilla = () => {
     const content = (
 
         <>
-        <img className = "portfolio-image-popup" src = {Clothzilla} alt = "Clothzilla Application" />
-        <p>
+        <img className = "portfolio-image-popupbox" src = {Clothzilla} alt = "Clothzilla Application" />
+        <p className = "popup-desc">
         A clothing retail application built on Ruby on Rails and React
         </p>
         {/* <b>Netlify:</b><a className = "hyper-link" onClick = {() => window.open("https://tenanttruths.netlify.app/")}>https://tenanttruths.netlify.app/</a> */}
-        <b>GitHub: Frontend</b> <a className = "hyper-link" onClick = {() => window.open("https://github.com/cmur11/ecom-app-frontend")}>https://github.com/cmur11/ecom-app-frontend</a><br></br>
-        <b>GitHub: Backend</b> <a className = "hyper-link"onClick = {() => window.open("https://github.com/cmur11/ecom_app_backend_api")}>https://github.com/cmur11/ecom_app_backend_api</a>
+        <b className = "link-desc">GitHub: Frontend</b> <a className = "hyper-link" onClick = {() => window.open("https://github.com/cmur11/ecom-app-frontend")}>https://github.com/cmur11/ecom-app-frontend</a><br></br>
+        <b className = "link-desc">GitHub: Backend</b> <a className = "hyper-link"onClick = {() => window.open("https://github.com/cmur11/ecom_app_backend_api")}>https://github.com/cmur11/ecom_app_backend_api</a>
         </>
 
     )
@@ -62,7 +62,7 @@ const openPopupboxClothzilla = () => {
 
     const popupboxConfigClothzilla = {
         titleBar: {
-            enable: true,
+            enable: false,
             text: "Clothzilla"
         },
         fadeIn: true,
@@ -75,13 +75,13 @@ const openPopupboxBreathe = () => {
     const content = (
 
         <>
-        <img className = "portfolio-image-popup" src = {Breathe} alt = "Breathe Application" />
-        <p>
-        A clothing retail application built on Ruby on Rails and React
+        <img className = "portfolio-image-popupbox" src = {Breathe} alt = "Breathe Application" />
+        <p className = "popup-desc">
+        A single page meditation application created with Ruby on Rails and vanilla JavaScript that allows users to browse and listen to meditation audios by category
         </p>
         {/* <b>Netlify:</b><a className = "hyper-link" onClick = {() => window.open("https://tenanttruths.netlify.app/")}>https://tenanttruths.netlify.app/</a> */}
-        <b>GitHub: Frontend</b> <a className = "hyper-link" onClick = {() => window.open("https://github.com/cmur11/breathe_frontend")}>https://github.com/cmur11/ecom-app-frontend</a><br></br>
-        <b>GitHub: Backend</b> <a className = "hyper-link"onClick = {() => window.open("https://github.com/cmur11/breathe_backend")}>https://github.com/cmur11/ecom_app_backend_api</a>
+        <b className = "link-desc">GitHub: Frontend</b> <a className = "hyper-link" onClick = {() => window.open("https://github.com/cmur11/breathe_frontend" )}>https://github.com/cmur11/breathe_frontend</a><br></br>
+        <b className = "link-desc">GitHub: Backend</b> <a className = "hyper-link"onClick = {() => window.open("https://github.com/cmur11/breathe_backend/tree/master")}>https://github.com/cmur11/breathe_backend/tree/master</a>
         </>
 
     )
@@ -91,7 +91,7 @@ const openPopupboxBreathe = () => {
 
     const popupboxConfigBreathe = {
         titleBar: {
-            enable: true,
+            enable: false,
             text: "Breathe"
         },
         fadeIn: true,

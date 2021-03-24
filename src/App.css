@@ -274,6 +274,9 @@
      background: var(--primary-gray);
      padding: 3rem 0;
    }
+   .portfolio-wrapper h1{
+   color: var(--primary-orange);
+  }
 
    .portfolio-image{
      width: 15rem;
@@ -320,10 +323,17 @@
    }
 
    /* ***************** Overflow BOX***************************  */
-   .portfolio-image-popup{
-     width: 45rem;
+   
+   .portfolio-image-popupbox{
+     width: 100%;
      padding: 0 0.5rem;
    }
+   .popup-desc{
+     width: 100%;
+     font-size: .7rem;
+     overflow-wrap: break-word
+   }
+
 
    .hyper-link{
      cursor: pointer;
@@ -334,3 +344,56 @@
     cursor: pointer;
     color: var(--primary-orange)
   }
+
+ /* ***************** Media Pop Up BOX***************************  */
+ @media(max-width: 768px){
+   .portfolio-image-popupbox {
+     width: 100%;
+   }
+   .popup-desc{
+    width: 100%;
+    font-size: .7rem;
+  }
+  .hyper-link{
+    width: 60%;
+    font-size: .6rem;
+  }
+  .link-desc{
+  font-size: .8rem;
+  }
+
+  }
+
+  @media(max-height: 570px){
+    .popupbox-wrapper{
+      height: 100% !important;
+    }
+    .portfolio-image-popupbox {
+      width: 60%;
+    }
+    .popup-desc{
+      width: 80%;
+      font-size: .7rem;
+    }
+    .hyper-link{
+      width: 80%;
+      font-size: .6rem;
+    }
+   }
+
+   @media(max-height: 280px){
+    .popupbox-wrapper{
+      height: 100% !important;
+    }
+    .portfolio-image-popupbox {
+      width: 40%;
+    }
+    .popup-desc{
+      width: 80%;
+      font-size: .7rem;
+    }
+    .hyper-link{
+      width: 80%;
+      font-size: .6rem;
+    }
+   }
