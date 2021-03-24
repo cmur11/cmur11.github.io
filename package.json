@@ -18,6 +18,8 @@
     "react-popupbox": "^2.0.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-share": "^4.4.0",
+    "react-social-icons": "^5.0.0",
     "react-typed": "^1.2.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.3",
