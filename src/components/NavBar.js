@@ -9,7 +9,7 @@ function NavBar(){
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container">
-              <a className="navbar-brand" href="#">Conor Murnane</a>
+              {/* <a className="navbar-brand" href="#">Conor Murnane</a> */}
               {/* <img src = {linkedIn} alt = "Conor Photo" className = "logo"/> */}
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <FontAwesomeIcon icon={faBars} style={{color: "#fff"}}/>
@@ -23,9 +23,9 @@ function NavBar(){
                   <li className="nav-item">
                     <a className="nav-link" href="#">About Me</a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a className="nav-link" href="#">Services</a>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <a className="nav-link" href="#">Experience</a>
                   </li>

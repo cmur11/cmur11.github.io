@@ -7,6 +7,7 @@ import Particles from "react-particles-js"
 import AboutMe from "./AboutMe"
 import Experience from "./Experience"
 import Portfolio from "./Portfolio"
+import Contact from "./Contact"
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
     <AboutMe/>
     <Experience/>
     <Portfolio/>
+    <Contact/>
     </>
   );
 }
