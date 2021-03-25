@@ -18,6 +18,7 @@
     "react-popupbox": "^2.0.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
     "react-share": "^4.4.0",
     "react-social-icons": "^5.0.0",
     "react-typed": "^1.2.0",
