@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/cmur11.github.io/static/css/main.c20a116e.chunk.css",
+    "main.js": "/cmur11.github.io/static/js/main.281817b8.chunk.js",
+    "main.js.map": "/cmur11.github.io/static/js/main.281817b8.chunk.js.map",
+    "runtime-main.js": "/cmur11.github.io/static/js/runtime-main.191922e2.js",
+    "runtime-main.js.map": "/cmur11.github.io/static/js/runtime-main.191922e2.js.map",
+    "static/css/2.301e199a.chunk.css": "/cmur11.github.io/static/css/2.301e199a.chunk.css",
+    "static/js/2.0ee06472.chunk.js": "/cmur11.github.io/static/js/2.0ee06472.chunk.js",
+    "static/js/2.0ee06472.chunk.js.map": "/cmur11.github.io/static/js/2.0ee06472.chunk.js.map",
+    "static/js/3.c66bbaae.chunk.js": "/cmur11.github.io/static/js/3.c66bbaae.chunk.js",
+    "static/js/3.c66bbaae.chunk.js.map": "/cmur11.github.io/static/js/3.c66bbaae.chunk.js.map",
+    "index.html": "/cmur11.github.io/index.html",
+    "static/css/2.301e199a.chunk.css.map": "/cmur11.github.io/static/css/2.301e199a.chunk.css.map",
+    "static/css/main.c20a116e.chunk.css.map": "/cmur11.github.io/static/css/main.c20a116e.chunk.css.map",
+    "static/js/2.0ee06472.chunk.js.LICENSE.txt": "/cmur11.github.io/static/js/2.0ee06472.chunk.js.LICENSE.txt",
+    "static/media/Breathe.85013317.png": "/cmur11.github.io/static/media/Breathe.85013317.png",
+    "static/media/Clothzilla.f2c7b00a.png": "/cmur11.github.io/static/media/Clothzilla.f2c7b00a.png",
+    "static/media/TenantTruths.a3e75247.png": "/cmur11.github.io/static/media/TenantTruths.a3e75247.png",
+    "static/media/App.css": "/cmur11.github.io/static/media/cliffsOfMoher.56c78ded.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.191922e2.js",
+    "static/css/2.301e199a.chunk.css",
+    "static/js/2.0ee06472.chunk.js",
+    "static/css/main.c20a116e.chunk.css",
+    "static/js/main.281817b8.chunk.js"
+  ]
+}
