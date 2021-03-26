@@ -4,6 +4,7 @@ import linkedIn from "../linkedin.jpg";
 //React FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import resume from "./Resume"
 // 
 
 function NavBar(){
@@ -24,6 +25,9 @@ function NavBar(){
                   </li>
                   <li className="nav-item">
                     <Link smooth = {true} to="about" offset={-80} className="nav-link" href="#">About Me</Link>
+                  </li>
+                  <li className="nav-item">
+                  <a href={resume} target="_blank" rel="noopener noreferrer" className="nav-link">Resume</a>
                   </li>
                   {/* <li className="nav-item">
                     <a className="nav-link" href="#">Services</a>

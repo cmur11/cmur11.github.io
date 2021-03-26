@@ -7,8 +7,8 @@ function Header(){
 return(
   <div id = "home" className = "header-wrapper">
       <div className = "main-info">
-           <h1>Conor Murnane</h1>
-          {/* <h2>Software Engineer </h2> */}
+           <h1>Conor Murnane</h1><br/>
+            {/* <h2>Software Engineer </h2> */}
           <Typed 
             className = "typed-text"
             strings = {["Software Engineer", "Javascript", "React", "Redux", "Ruby on Rails", "HTML", "CSS", "PostgreSQL", "SQLite", "Git", "Heroku", "Netlify" ]}

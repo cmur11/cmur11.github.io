@@ -9,7 +9,8 @@ function Experience(){
                 <div className = "timeline-block timeline-block-right">
                     <div className= "marker"></div>
                         <div className= "timeline-content">
-                            <h3> Junior Overlay Portfolio Manager(Spring 2016– Spring 2018)</h3>    
+                            <h3>Junior Overlay Portfolio Manager</h3>
+                            <h4>(Spring 2016– Spring 2018)</h4>    
                             <p>
                             <br></br>   Part of a four-person team tasked with providing model driven performance for roughly 15,000 accounts and over $6 billion dollars in assets under management 
                             <br></br>   Manager models may include equities, ETFs, mutual funds, as well as various fixed income instruments 
@@ -25,7 +26,8 @@ function Experience(){
                 <div className = "timeline-block timeline-block-left">
                     <div className= "marker"></div>
                         <div className= "timeline-content">
-                            <h3>Project Manager (Spring 2018– Summer 2020)</h3>    
+                            <h3>Project Manager </h3>
+                            <h4>(Spring 2018– Summer 2020)</h4>    
                             <p>
                             <br></br>   Project manager tasked with onboarding clients onto the Hazeltree Collateral and Recon products 
                             <br></br>   Regularly interact with our product and development team to facilitate client driven product enhancements 
