@@ -49,7 +49,7 @@ function Experience(){
                             <br></br>Completed Software Engineering bootcamp with a total of 525 clock hours
                             <br></br>Worked with Ruby on rails tools to create complex, functional web application 
                             <br></br>Gained thorough understanding of Javascript by creating single page application with Ruby on Rails Backend and Javascript front end
-                            <br></br>Built final project with Front-End with React framework, utilizing hooks to create reusable components and avoid duplication
+                            <br></br>Built final project with React framework, utilizing hooks to create reusable components and avoid duplication
                             <br></br>Worked on group projects, to simulate group work setting and furthering material understanding
                             </p>
                         </div>
