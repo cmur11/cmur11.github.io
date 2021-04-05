@@ -44,7 +44,8 @@ function Experience(){
                 <div className = "timeline-block timeline-block-right">
                     <div className= "marker"></div>
                         <div className= "timeline-content">
-                            <h3> Flatiron School(Winter 2020- Spring 2021)</h3>    
+                            <h3>Flatiron School- Student</h3>
+                            <h4> (Winter 2020- Spring 2021)</h4>    
                             <p>
                             <br></br>Completed Software Engineering bootcamp with a total of 525 clock hours
                             <br></br>Worked with Ruby on rails tools to create complex, functional web application 
