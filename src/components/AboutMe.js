@@ -13,10 +13,9 @@ function AboutMe(){
                 <div className= "col-lg-6 col-xm-12">
                     <h1 className= "about-heading">About Me</h1>
                     <p>
-                        I am a full stack web developer with experience in Javascript, React, and Ruby on Rails. 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat. 
+                    Full stack web developer with a passion for building projects that are used routinely. 
+                    Experienced building applications in Ruby, Rails, JavaScript, and React. 
+                    Former project manager and finance professional who’s eager to enhance a company’s user experience. 
                     </p>
                 </div>
 

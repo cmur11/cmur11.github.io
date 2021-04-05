@@ -16,9 +16,9 @@ function Footer(){
                             <p> New York, New York</p>
                         </div>
                         {/* Number */}
-                        <div className = "d-flex">
+                        {/* <div className = "d-flex">
                             <a href = "tel:914-202-5209">+1(914)202-5209</a>
-                        </div>
+                        </div> */}
                         {/* email */}
                         <div className = "d-flex">
                             <p> conormurnane11@gmail.com</p>

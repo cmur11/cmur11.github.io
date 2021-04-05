@@ -46,13 +46,11 @@ function Experience(){
                         <div className= "timeline-content">
                             <h3> Flatiron School(Winter 2020- Spring 2021)</h3>    
                             <p>
-                            <br></br>● Part of a four-person team tasked with providing model driven performance for roughly 15,000 accounts and over $6 billion dollars in assets under management 
-                            <br></br>● Manager models may include equities, ETFs, mutual funds, as well as various fixed income instruments 
-                            <br></br>● Manage portfolio drift of both internal and externally managed accounts. 
-                            <br></br>● Part of team that led in-house implementation of Vestmark, a portfolio management system now used by all financial advisors at Oppenheimer (this entailed testing daily functionalities such as trade generation, contributions, withdrawals, and writing internal procedures for such tasks) 
-                            <br></br>● Identify Vestmark system shortcomings and provide desired results to improve system functionalities 
-                            <br></br>● Communicate with client services to understand individual investors’ objectives and risk profiles 
-                            <br></br>● Daily responsibilities include pre-trade review for existing clients, trade implementation for new accounts, investment allocation changes, and cash and security contributions and withdrawals 
+                            <br></br>Completed Software Engineering bootcamp with a total of 525 clock hours
+                            <br></br>Worked with Ruby on rails tools to create complex, functional web application 
+                            <br></br>Gained thorough understanding of Javascript by creating single page application with Ruby on Rails Backend and Javascript front end
+                            <br></br>Built final project with Front-End frameworks such as React, utilizing hooks to create reusable components and avoid duplication
+                            <br></br>Worked on group projects, to simulate group work setting and furthering material understanding
                             </p>
                         </div>
                 </div>
