@@ -21,6 +21,7 @@ const openPopupboxTenantTruths = () => {
         A react/rails application inspired by StreetEasy and Yelp, this application allows users to review, 
         rate, and upload photos of apartment listings to ensure prospective tenants have transparency into apartments
         </p>
+        <b className = "link-desc">Demo:</b><a className = "hyper-link" onClick = {() => window.open("https://www.loom.com/share/c999bfbd86124f1f8ea8418b6e252fa2")}>https://www.loom.com/share/c999bfbd86124f1f8ea8418b6e252fa2</a><br></br>
         <b className = "link-desc">Website:</b><a className = "hyper-link" onClick = {() => window.open("https://tenanttruths.netlify.app/")}>https://tenanttruths.netlify.app/</a><br></br>
         <b className = "link-desc">GitHub: Frontend</b> <a className = "hyper-link" onClick = {() => window.open("https://github.com/cmur11/apartmentreviewfrontend")} >https://github.com/cmur11/apartmentreviewfrontend</a><br></br>
         <b className = "link-desc">GitHub: Backend</b> <a className = "hyper-link"onClick = {() => window.open("https://github.com/cmur11/apartmentreview_backend")}>https://github.com/cmur11/apartmentreview_backend</a>
@@ -79,7 +80,7 @@ const openPopupboxBreathe = () => {
         <p className = "popup-desc">
         A single page meditation application created with Ruby on Rails and vanilla JavaScript that allows users to browse and listen to meditation audios by category
         </p>
-        <b>Website:</b><a className = "hyper-link" onClick = {() => window.open("https://breathe-fulness.netlify.app/")}>https://breathe-fulness.netlify.app</a>
+        <b className = "link-desc">Website:</b><a className = "hyper-link" onClick = {() => window.open("https://breathe-fulness.netlify.app/")}>https://breathe-fulness.netlify.app</a><br></br>
         <b className = "link-desc">GitHub: Frontend</b> <a className = "hyper-link" onClick = {() => window.open("https://github.com/cmur11/breathe_frontend" )}>https://github.com/cmur11/breathe_frontend</a><br></br>
         <b className = "link-desc">GitHub: Backend</b> <a className = "hyper-link"onClick = {() => window.open("https://github.com/cmur11/breathe_backend/tree/master")}>https://github.com/cmur11/breathe_backend/tree/master</a>
         </>
